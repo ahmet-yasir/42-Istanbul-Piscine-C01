@@ -1,39 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/05 03:16:31 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 03:23:58 by akulaksi         ###   ########.fr       */
+/*   Created: 2024/02/05 03:25:30 by akulaksi          #+#    #+#             */
+/*   Updated: 2024/02/05 03:32:14 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_ultimate_ft (int *********nbr)
+void    ft_swap (int *a, int *b)
 {
-    *********nbr = 42;
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
 }
 
 /*int main (void)
-{            
-    int *ptr1;
-    ptr1 = (int *)malloc(sizeof(int));  
-    int **ptr2 = &ptr1;    
-    int ***ptr3 = &ptr2;   
-    int ****ptr4 = &ptr3; 
-    int *****ptr5 = &ptr4;  
-    int ******ptr6 = &ptr5; 
-    int *******ptr7 = &ptr6;
-    int ********ptr8 = &ptr7; 
-    int *********ptr9 = &ptr8; 
-
-    ft_ultimate_ft(ptr9);
-
-    printf("%d", *ptr1);
-
-    return 0;
+{
+    int *num1;
+    int *num2;
+    
+    num1 = (int *)malloc(sizeof(int));
+    num2 = (int *)malloc(sizeof(int));
+    *num1 = 42;
+    *num2 = 24;
+    ft_swap(num1, num2);
+    printf("num1:%d\nnum2:%d",*num1, *num2);
+    return (0);
 }*/
