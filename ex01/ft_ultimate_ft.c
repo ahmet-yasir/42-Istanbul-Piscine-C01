@@ -6,16 +6,16 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 03:16:31 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 03:23:58 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/06 15:18:18 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_ultimate_ft (int *********nbr)
+void	ft_ultimate_ft(int *********nbr)
 {
-    *********nbr = 42;
+	*********nbr = 42;
 }
 
 /*int main (void)

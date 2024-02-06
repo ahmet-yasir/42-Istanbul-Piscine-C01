@@ -6,20 +6,20 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 03:34:39 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 03:47:09 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/06 15:20:09 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-    if (b != 0)
-    {
-        *div = a / b;
-        *mod = a % b;
-    }    
+	if (b != 0)
+	{
+		*div = a / b;
+		*mod = a % b;
+	}
 }
 
 /*int main (void)

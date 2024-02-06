@@ -6,26 +6,26 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 04:20:10 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 04:42:10 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/06 15:24:03 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_rev_int_tab (int *tab, int size)
+void	ft_rev_int_tab(int *tab, int size)
 {
-    int i;
-    int temp;
-    
-    i = 0;
-    while (i < size / 2)
-    {
-        temp = tab[i];
-        tab[i] = tab [size - 1 - i];
-        tab [size - 1 - i] = temp;
-        i++;
-    }
+	int	i;
+	int	temp;
+
+	i = 0;
+	while (i < size / 2)
+	{
+		temp = tab[i];
+		tab[i] = tab [size - 1 - i];
+		tab [size - 1 - i] = temp;
+		i++;
+	}
 }
 
 /*int main (void)

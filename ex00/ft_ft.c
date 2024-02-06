@@ -6,14 +6,14 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 03:01:16 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 03:14:45 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/06 15:17:40 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_ft (int *nbr)
+void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }

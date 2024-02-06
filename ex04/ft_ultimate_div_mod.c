@@ -6,25 +6,25 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 03:48:37 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 03:56:41 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/06 15:21:01 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-    int div;
-    int mod;
+	int	div;
+	int	mod;
 
-    if (*b != 0)
-    {
-        div = *a / *b;
-        mod = *a % *b;
-        *a = div;
-        *b = mod;
-    }
+	if (*b != 0)
+	{
+		div = *a / *b;
+		mod = *a % *b;
+		*a = div;
+		*b = mod;
+	}
 }
 
 /*int main (void)

@@ -6,38 +6,39 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 04:43:32 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/05 05:02:30 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/06 15:25:04 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void    ft_swap (int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
+	int	temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
 
-void    ft_sort_int_tab(int *tab, int size)
+void	ft_sort_int_tab(int *tab, int size)
 {
-    int i;
-    int j;
+	int	i;
+	int	j;
 
-    i = 0;
-    while (i < size)
-    {
-        j = 0;
-        while (j < size)
-        {
-            if (tab[j] > tab[i])
-                ft_swap(&tab[i], &tab[j]);
-            j++;
-        }
-        i++;
-    }
+	i = 0;
+	while (i < size)
+	{
+		j = 0;
+		while (j < size)
+		{
+			if (tab[j] > tab[i])
+				ft_swap(&tab[i], &tab[j]);
+			j++;
+		}
+		i++;
+	}
 }
 
 /*int main (void)
