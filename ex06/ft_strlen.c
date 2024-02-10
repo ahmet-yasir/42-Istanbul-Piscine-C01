@@ -6,12 +6,9 @@
 /*   By: akulaksi <akulaksi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 04:13:16 by akulaksi          #+#    #+#             */
-/*   Updated: 2024/02/06 15:23:13 by akulaksi         ###   ########.fr       */
+/*   Updated: 2024/02/10 12:11:31 by akulaksi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <stdlib.h>
 
 int	ft_strlen(char *str)
 {
@@ -22,10 +19,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
-/*int main (void)
-{
-    char *str = "STDOUT";
-    printf("%d",ft_strlen(str));
-    return (0);
-}*/
